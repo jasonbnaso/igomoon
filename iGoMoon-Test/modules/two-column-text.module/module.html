@@ -1,14 +1,17 @@
-<div class='two-column-wrapper' style="background-color:'{{ module.background_color.color }}'">
-  <div class="row">
-    <div class="column">
-      {% if module.left_text %}
-      {{module.left_text}}
-      {% endif %}
-    </div>
-    <div class="column">
-      {% if module.right_text %}
-      {{module.right_text}}
-      {% endif %}
-    </div>
+<div class="two-column">
+  <h3>{{module.title}}</h3>
+<div class="two-column__row">
+  <div class="two-column__column">
+    {% if module.left_text %}
+    {{module.left_text}}
+    {% endif %}
+  </div>
+  <div class="two-column__column">
+    {% if module.right_text %}
+    {{module.right_text}}
+    {% endif %}
   </div>
 </div>
+
+<!-- <div class='two-column-wrapper' style="background-color: {{ module.background_color.color }}">
+</div> -->

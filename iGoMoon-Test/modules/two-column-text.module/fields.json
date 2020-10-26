@@ -14,4 +14,15 @@
   "locked" : false,
   "type" : "richtext",
   "default" : "<p>Divid Nasos Furniture is wonderful!</p>"
+}, {
+  "id" : "638aa0bc-f67b-ba59-1a22-866cc3dc52d2",
+  "name" : "background_color",
+  "label" : "Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#000",
+    "opacity" : 100
+  }
 } ]

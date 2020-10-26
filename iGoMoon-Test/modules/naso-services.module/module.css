@@ -1,22 +1,32 @@
-.service__single {
+.services__row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  flex-wrap: wrap;
 }
-ul {
-  list-style-type: none;
+.services__title {
+  text-align: center;
+}
+.service__column {
+  text-align: center;
+  flex: 1 1 100%;
+  max-width: 100%;
+  /* max-width: 100%; This is a know bug */
+}
+@media screen and (min-width: 768px) {
+  .service__column {
+    flex: 1 1 25%;
+    max-width: 25%;
+  }
 }
 .fa {
   font-size: 100px !important;
   color: #ca6;
   margin-bottom: 30px;
 }
-.service-title {
-  text-align: center;
+.column {
+  flex: 1 1 100%;
+  padding: 15px;
 }
-/* .dnd-column {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: flex-start !important;
-} */
+
+/* flex: 1 1 25%;
+max-width: 25%;
+max-width: 25%; This is a know bug */

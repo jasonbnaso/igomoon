@@ -1,6 +1,6 @@
 [ {
   "id" : "4d526a1f-1c20-9ceb-c26c-609e1fe05652",
-  "name" : "services_group",
+  "name" : "services",
   "label" : "Services Group",
   "required" : false,
   "locked" : false,
@@ -12,9 +12,9 @@
   },
   "children" : [ {
     "id" : "7f2e875c-3f12-6aba-8e3c-a6a1d428f6fc",
-    "name" : "services_icon",
-    "label" : "Services Icon",
-    "required" : false,
+    "name" : "icon",
+    "label" : "Icon",
+    "required" : true,
     "locked" : false,
     "validation_regex" : "",
     "allow_new_line" : false,
@@ -22,45 +22,47 @@
     "type" : "text",
     "default" : "500px"
   }, {
-    "id" : "82146966-b051-6fb1-da90-0b70d932f258",
-    "name" : "services_title",
-    "label" : "Services Title",
-    "required" : false,
-    "locked" : false,
-    "validation_regex" : "",
-    "allow_new_line" : false,
-    "show_emoji_picker" : false,
-    "type" : "text",
-    "default" : "Custom Furniture"
-  }, {
-    "id" : "2e2a2d64-2198-3990-cf7b-64455f3786d9",
-    "name" : "services_text",
-    "label" : "Services Text",
-    "required" : false,
-    "locked" : false,
-    "type" : "richtext",
-    "default" : "<p>We have wonderful wooden furniture</p>"
-  }, {
     "id" : "69dc8626-7bfd-6fdc-1639-869e856204d0",
-    "name" : "primary_color",
+    "name" : "color",
     "label" : "Icon Color",
-    "required" : false,
+    "required" : true,
     "locked" : false,
     "type" : "color",
     "default" : {
       "color" : "#ca6",
       "opacity" : 100
     }
+  }, {
+    "id" : "9668bdc7-5a2b-89ab-d82f-c82f8da4e043",
+    "name" : "heading",
+    "label" : "Heading",
+    "required" : true,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Heading"
   } ],
   "tab" : "CONTENT",
   "type" : "group",
   "default" : {
-    "services_icon" : "500px",
-    "services_title" : "Custom Furniture",
-    "services_text" : "<p>We have wonderful wooden furniture</p>",
-    "primary_color" : {
+    "icon" : "500px",
+    "color" : {
       "color" : "#ca6",
       "opacity" : 100
-    }
+    },
+    "heading" : "Heading"
   }
+}, {
+  "id" : "1816d411-c6f1-7d2a-4fbb-d3c733c39ab3",
+  "name" : "title",
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Title"
 } ]

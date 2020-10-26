@@ -1,15 +1,20 @@
-<div class="row">
-  <div class="column">
-    {% if module.heading %}
-    <h5>{{module.heading}}</h5>
-    {% endif %}
-    {% if module.text %}
-    {{module.text}}
+<div class="image-text">
+  <h2 class="image-text__title">{{module.title}}</h2>
+  <div class="image-text__row">
+    <div class="image-text__column">
+      {% if module.heading %}
+      <h3>{{module.heading}}</h3>
+      {% endif %}
+      {% if module.text %}
+      {{module.text}}
+      {% endif %}
+    </div>
+    {% if module.image %}
+    <div class="image-text__column">
+      <img class="image-text__image" src={{module.image.src}} alt={{module.image.alt}}>
+    </div>
     {% endif %}
   </div>
-  {% if module.image %}
-  <div class="column">
-    <img class="column-image" src={{module.image.src}} alt={{module.image.alt}}>
-  </div>
-  {% endif %}
 </div>
+
+<!-- Rows Columns should be global (later) -->

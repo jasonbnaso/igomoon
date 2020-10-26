@@ -1,24 +1,17 @@
-.hero-wrapper {
+/* .hero-wrapper {
   z-index: 40;
-}
-.hero-image {
-  height: 80vh;
+} */
+.hero__image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 28vh;
-  padding-bottom: 28vh;
+  padding: 10rem 1rem;
 }
-.hero-text-area h1 {
-  font-size: 26px;
-  text-align: right;
+.hero__text h1, .hero__text h2 {
   color: #fff;
-  padding: 0 4vh;
-  line-height: 36px;
 }
-.hero-text-area h2 {
-  color: #fff;
-  font-size: 18px;
+.hero__text {
   text-align: right;
-  padding: 0 4vh;
 }
+
+/* Use a mix in when you get SASS going */

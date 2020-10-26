@@ -1,16 +1,19 @@
-.row {
+.image-text__title{
+  text-align: center;
+}
+.image-text__row {
   display: flex;
   flex-wrap: wrap;
 }
-.column {
+.image-text__column {
   flex: 1 1 100%;
 }
 @media screen and (min-width: 768px) {
-  .column {
+  .image-text__column {
     flex: 1 1 50%;
   }
 }
-.column-image {
+.image-text__image {
   height: auto;
   width: 100%;
 }

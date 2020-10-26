@@ -1,17 +1,13 @@
-.row {
+.two-column__row {
   display: flex;
   flex-wrap: wrap;
 }
-.column {
+.two-column__column {
   flex: 1 1 100%;
   padding: 15px;
 }
 @media screen and (min-width: 768px) {
-  .column {
+  .two-column__column {
     flex: 1 1 50%;
   }
-}
-.column-image {
-  height: auto;
-  width: 100%;
 }
