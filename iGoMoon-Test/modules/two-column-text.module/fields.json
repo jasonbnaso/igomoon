@@ -1,0 +1,17 @@
+[ {
+  "id" : "8d43a267-a75a-cedc-86a2-a9a19749e902",
+  "name" : "left_text",
+  "label" : "Left Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Divid Nasos Furniture is wonderful!</p>"
+}, {
+  "id" : "8782e427-d003-36d2-7aca-ecdb06d0ec15",
+  "name" : "right_text",
+  "label" : "Right Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Divid Nasos Furniture is wonderful!</p>"
+} ]
