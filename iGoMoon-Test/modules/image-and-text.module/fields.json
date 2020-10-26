@@ -1,0 +1,40 @@
+[ {
+  "id" : "5ef17960-ec06-d80a-372a-3e7ced74a519",
+  "name" : "text",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>Something nice about David Naso</p>"
+}, {
+  "id" : "3d95b7da-df44-d6d9-5987-892c482c7370",
+  "name" : "heading",
+  "label" : "Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "We create..."
+}, {
+  "id" : "5112ba4c-1d80-be93-563d-685e08fb4d2e",
+  "name" : "image",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent10.net/hubfs/8632619/david-naso-portrait.png",
+    "alt" : "david-naso-portrait",
+    "loading" : "disabled",
+    "width" : 900,
+    "height" : 600,
+    "max_width" : 900,
+    "max_height" : 600
+  }
+} ]
