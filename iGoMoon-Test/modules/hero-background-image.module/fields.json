@@ -1,0 +1,43 @@
+[ {
+  "id" : "f4362111-4715-a61b-a190-05685f0cce5b",
+  "name" : "hero_image",
+  "label" : "Hero Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent10.net/hubfs/8632619/Maple-table-hero-image-hero.jpg",
+    "alt" : "Maple-table-hero-image-hero",
+    "loading" : "disabled",
+    "width" : 2592,
+    "height" : 1386,
+    "max_width" : 2592,
+    "max_height" : 1386
+  }
+}, {
+  "id" : "5f83525e-ffe4-3857-4a32-8d9214865066",
+  "name" : "hero_heading",
+  "label" : "Hero Heading",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "David Naso Designs specializes in creating custom wood furniture."
+}, {
+  "id" : "c21a57bc-7d90-ee6a-d791-932024be1406",
+  "name" : "hero_text",
+  "label" : "Hero Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Tomorrow's heirlooms today."
+} ]

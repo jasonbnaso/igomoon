@@ -9,7 +9,22 @@
 {% block body %}
 <main class="body-container-wrapper">
   {% dnd_area 'dnd_area' class='body-container body-container--home', label='Main section' %}
-    
+
+     {# Hero section #}
+     {% dnd_section
+     background_color={
+       r: 248,
+       g: 250,
+       b: 252,
+       a: 1
+     },
+     vertical_alignment='TOP'
+   %}
+   {% dnd_module path='../modules/hero-background-image.module' %}
+     {% end_dnd_module %}  
+   {% end_dnd_section %}
+   {# End Hero section #}
+   
     {# Multiple column services section #}
     {% dnd_section
       background_color={
@@ -58,3 +73,5 @@
   {% end_dnd_area %}
 </main>
 {% endblock body %}
+
+
