@@ -1,0 +1,11 @@
+<div class="services-wrapper">
+    <ul class="services__row">
+        {% for service in module.services_group %}
+        <li class="service__single">
+            <i class="fa fa-{{service.services_icon}}"></i>
+            <h4 class="service-title">{{service.services_title}}</h4>
+            {{service.services_text}}
+        </li>
+        {% endfor %}
+    </ul>
+</div>

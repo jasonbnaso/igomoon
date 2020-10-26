@@ -1,0 +1,30 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Test Template
+  screenshotPath: ../images/david-naso-portrait.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+<main class="body-container-wrapper">
+  {% dnd_area 'dnd_area' class='body-container body-container--home', label='Main section' %}
+    
+    {# Multiple column services section #}
+    {% dnd_section
+      background_color={
+        r: 248,
+        g: 250,
+        b: 252,
+        a: 1
+      },
+      vertical_alignment='TOP'
+    %}
+    {% dnd_module path='../modules/naso-services.module' %}
+      {% end_dnd_module %}  
+    {% end_dnd_section %}
+    {# End Multiple column services section #}
+
+  {% end_dnd_area %}
+</main>
+{% endblock body %}
