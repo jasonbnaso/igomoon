@@ -1,0 +1,12 @@
+defaultPortal: igomoon-reference
+portals:
+  - name: igomoon-reference
+    portalId: 8632619
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          COSOyKPWLhIIAA0ADAAA4AEYq_KOBCCL-ekFKO7pDDIZANv8EtvrHgGlH7Mc47MaZ-WYSiM9dey6ozogAAAEQQAAAHgAAAAAAAAAAIABAAAAAAAEwADAB2D-_zFCGQDb_BLbX4cYKQeb5OGEXmYa1w5J43dhz7M
+        expiresAt: '2020-10-26T10:26:36.013Z'
+    personalAccessKey: >-
+      CiQ4NDBhZDkxYy00NjQyLTQzNjUtOTFiYS01OGIxZmZmY2YyNDcQq_KOBBiL-ekFKhkABeaRgnvRaknPOEGwxp2eYqZ0A5kyZhB-
