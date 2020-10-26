@@ -1,42 +1,66 @@
 [ {
-  "id" : "7f2e875c-3f12-6aba-8e3c-a6a1d428f6fc",
-  "name" : "services_icon",
-  "label" : "Services Icon",
+  "id" : "4d526a1f-1c20-9ceb-c26c-609e1fe05652",
+  "name" : "services_group",
+  "label" : "Services Group",
   "required" : false,
   "locked" : false,
-  "validation_regex" : "",
-  "allow_new_line" : false,
-  "show_emoji_picker" : false,
-  "type" : "text",
-  "default" : "Nasos Services"
-}, {
-  "id" : "82146966-b051-6fb1-da90-0b70d932f258",
-  "name" : "services_title",
-  "label" : "Services Title",
-  "required" : false,
-  "locked" : false,
-  "validation_regex" : "",
-  "allow_new_line" : false,
-  "show_emoji_picker" : false,
-  "type" : "text",
-  "default" : "Custom Furniture"
-}, {
-  "id" : "2e2a2d64-2198-3990-cf7b-64455f3786d9",
-  "name" : "services_text",
-  "label" : "Services Text",
-  "required" : false,
-  "locked" : false,
-  "type" : "richtext",
-  "default" : "<p>We have wonderful wooden furniture</p>"
-}, {
-  "id" : "69dc8626-7bfd-6fdc-1639-869e856204d0",
-  "name" : "primary_color",
-  "label" : "Icon Color",
-  "required" : false,
-  "locked" : false,
-  "type" : "color",
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "7f2e875c-3f12-6aba-8e3c-a6a1d428f6fc",
+    "name" : "services_icon",
+    "label" : "Services Icon",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "500px"
+  }, {
+    "id" : "82146966-b051-6fb1-da90-0b70d932f258",
+    "name" : "services_title",
+    "label" : "Services Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Custom Furniture"
+  }, {
+    "id" : "2e2a2d64-2198-3990-cf7b-64455f3786d9",
+    "name" : "services_text",
+    "label" : "Services Text",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>We have wonderful wooden furniture</p>"
+  }, {
+    "id" : "69dc8626-7bfd-6fdc-1639-869e856204d0",
+    "name" : "primary_color",
+    "label" : "Icon Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#ca6",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
   "default" : {
-    "color" : "#ca6",
-    "opacity" : 100
+    "services_icon" : "500px",
+    "services_title" : "Custom Furniture",
+    "services_text" : "<p>We have wonderful wooden furniture</p>",
+    "primary_color" : {
+      "color" : "#ca6",
+      "opacity" : 100
+    }
   }
 } ]

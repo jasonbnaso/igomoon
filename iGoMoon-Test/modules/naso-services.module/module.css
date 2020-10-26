@@ -1,0 +1,22 @@
+.service__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+ul {
+  list-style-type: none;
+}
+.fa {
+  font-size: 100px !important;
+  color: #ca6;
+  margin-bottom: 30px;
+}
+.service-title {
+  text-align: center;
+}
+/* .dnd-column {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+} */
