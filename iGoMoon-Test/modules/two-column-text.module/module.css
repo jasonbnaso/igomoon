@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1 1 100%;
+  }
+  @media screen and (min-width: 768px) {
+    .column {
+      flex: 1 1 50%;
+    }
+  }
+  .column-image{
+    height: auto;
+    width: 100%;
+  }
+  

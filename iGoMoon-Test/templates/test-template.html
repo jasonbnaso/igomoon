@@ -25,7 +25,7 @@
     {% end_dnd_section %}
     {# End Multiple column services section #}
 
-    {# Multiple column services section #}
+    {# Image and Text section #}
     {% dnd_section
       background_color={
         r: 248,
@@ -38,7 +38,22 @@
     {% dnd_module path='../modules/image-and-text.module' %}
       {% end_dnd_module %}  
     {% end_dnd_section %}
-    {# End Multiple column services section #}
+    {# End Image and Text section #}
+
+    {# Two Column Text section #}
+    {% dnd_section
+      background_color={
+        r: 248,
+        g: 250,
+        b: 252,
+        a: 1
+      },
+      vertical_alignment='TOP'
+    %}
+    {% dnd_module path='../modules/two-column-text.module' %}
+      {% end_dnd_module %}  
+    {% end_dnd_section %}
+    {# End Two Column Text section #}
 
   {% end_dnd_area %}
 </main>
